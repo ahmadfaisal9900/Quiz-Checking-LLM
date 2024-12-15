@@ -7,7 +7,7 @@ API_KEY = gen_api_key()
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel(model_name="gemini-1.5-pro")
 
-# Hidden prompt
+# Hidden promptss
 hidden_prompt = "Check each quiz and say which are right and which are wrong. Each question is worth one mark, and tell obtained marks at the end for each quiz."
 
 # Function to process all images in a directory
